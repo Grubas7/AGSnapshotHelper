@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */; };
 		730869F21BF8E1E20033F34A /* AGSnapshotHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		730869F91BF8E1E20033F34A /* AGSnapshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */; };
 		730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		32F8B98B5FE5B832C9BA729B /* Pods-AGSnapshotHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelper/Pods-AGSnapshotHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategoryTests.m"; sourceTree = "<group>"; };
 		730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGSnapshotHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGSnapshotHelper.h; sourceTree = "<group>"; };
 		730869F31BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C7D4CC1C0226F4001C6546 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		730869E41BF8E1E20033F34A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		730869FC1BF8E1E20033F34A /* AGSnapshotHelperTests */ = {
 			isa = PBXGroup;
 			children = (
+				66C7D4CC1C0226F4001C6546 /* Categories */,
 				730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
 			);
@@ -291,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */,
 				730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
