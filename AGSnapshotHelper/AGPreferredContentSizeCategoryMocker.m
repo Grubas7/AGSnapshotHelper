@@ -1,34 +1,31 @@
 //
-//  AGApplicationMocker.m
+//  AGPreferredContentSizeCategoryMocker.m
 //  AGSnapshotHelper
 //
 //  Created by Adam Grzegorowski on 15/11/15.
 //  Copyright © 2015 allegro. All rights reserved.
 //
 
-#import "AGApplicationMocker.h"
+#import "AGPreferredContentSizeCategoryMocker.h"
 
 #import <UIKit/UIKit.h>
 #import <OCMock/OCMock.h>
 
-@interface AGApplicationMocker ()
+@interface AGPreferredContentSizeCategoryMocker ()
 
 @property (nonatomic, strong) UIApplication *applicationMock;
 
 @end
 
-@implementation AGApplicationMocker
+@implementation AGPreferredContentSizeCategoryMocker
 
-- (void)startMockingApplicationForContentSizeCategory:(NSString *)contentSizeCategory {
+- (void)startMockingPreferredContentSizeCategory:(NSString *)contentSizeCategory {
 
     self.applicationMock = OCMPartialMock([UIApplication sharedApplication]);
     OCMStub([self.applicationMock preferredContentSizeCategory]).andReturn(contentSizeCategory);
-
-    [[NSNotificationCenter defaultCenter] postNotificationName:UIContentSizeCategoryDidChangeNotification
-                                                        object:nil];
 }
 
-- (void)stopMockingApplication {
+- (void)stopMockingPreferredContentSizeCategory {
 
     [(id)self.applicationMock stopMocking];
     self.applicationMock = nil;
