@@ -7,7 +7,7 @@
 //
 
 #import "FBSnapshotTestCase+AGSnapshotHelper.h"
-#import "AGApplicationMocker.h"
+#import "AGPreferredContentSizeCategoryMocker.h"
 #import "NSString+ContentSizeCategory.h"
 
 #import <FBSnapshotTestCase/FBSnapshotTestController.h>
@@ -23,8 +23,8 @@
 
     NSAssert1([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
 
-    AGApplicationMocker *applicationMocker = [[AGApplicationMocker alloc] init];
-    [applicationMocker startMockingApplicationForContentSizeCategory:contentSizeCategory];
+    AGPreferredContentSizeCategoryMocker *mocker = [[AGPreferredContentSizeCategoryMocker alloc] init];
+    [mocker startMockingPreferredContentSizeCategory:contentSizeCategory];
 
     FBSnapshotTestController *snapshotTestController = [[FBSnapshotTestController alloc] initWithTestName:@"testName"];
     BOOL compareSuccessful = [snapshotTestController compareSnapshotOfLayer:layer
@@ -32,7 +32,7 @@
                                                                  identifier:nil
                                                                       error:nil];
 
-    [applicationMocker stopMockingApplication];
+    [mocker stopMockingPreferredContentSizeCategory];
 
     NSAssert(compareSuccessful, @"Comparasion failed.");
 }

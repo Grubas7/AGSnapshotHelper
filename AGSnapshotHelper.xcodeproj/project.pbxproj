@@ -11,8 +11,8 @@
 		730869F21BF8E1E20033F34A /* AGSnapshotHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		730869F91BF8E1E20033F34A /* AGSnapshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */; };
 		730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */; };
-		73086A0A1BF8E32C0033F34A /* AGApplicationMocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A081BF8E32C0033F34A /* AGApplicationMocker.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		73086A0B1BF8E32C0033F34A /* AGApplicationMocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 73086A091BF8E32C0033F34A /* AGApplicationMocker.m */; };
+		73086A0A1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A081BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		73086A0B1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 73086A091BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m */; };
 		73086A171BF8ECA60033F34A /* NSString+ContentSizeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A151BF8ECA60033F34A /* NSString+ContentSizeCategory.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		73086A181BF8ECA60033F34A /* NSString+ContentSizeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73086A161BF8ECA60033F34A /* NSString+ContentSizeCategory.m */; };
 		73086A1B1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A191BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,8 +39,8 @@
 		730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSnapshotHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGSnapshotHelperTests.m; sourceTree = "<group>"; };
 		730869FF1BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73086A081BF8E32C0033F34A /* AGApplicationMocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGApplicationMocker.h; sourceTree = "<group>"; };
-		73086A091BF8E32C0033F34A /* AGApplicationMocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGApplicationMocker.m; sourceTree = "<group>"; };
+		73086A081BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPreferredContentSizeCategoryMocker.h; sourceTree = "<group>"; };
+		73086A091BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPreferredContentSizeCategoryMocker.m; sourceTree = "<group>"; };
 		73086A151BF8ECA60033F34A /* NSString+ContentSizeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ContentSizeCategory.h"; sourceTree = "<group>"; };
 		73086A161BF8ECA60033F34A /* NSString+ContentSizeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategory.m"; sourceTree = "<group>"; };
 		73086A191BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase+AGSnapshotHelper.h"; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				73086A0C1BF8EC4B0033F34A /* Categories */,
-				73086A081BF8E32C0033F34A /* AGApplicationMocker.h */,
-				73086A091BF8E32C0033F34A /* AGApplicationMocker.m */,
+				73086A081BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h */,
+				73086A091BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m */,
 				73086A191BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h */,
 				73086A1A1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m */,
 				730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */,
@@ -156,7 +156,7 @@
 			files = (
 				73086A1B1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h in Headers */,
 				73086A171BF8ECA60033F34A /* NSString+ContentSizeCategory.h in Headers */,
-				73086A0A1BF8E32C0033F34A /* AGApplicationMocker.h in Headers */,
+				73086A0A1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h in Headers */,
 				730869F21BF8E1E20033F34A /* AGSnapshotHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
