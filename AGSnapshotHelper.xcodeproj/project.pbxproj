@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660525BA1C09112000B5BF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525B91C09112000B5BF97 /* main.m */; };
+		660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BC1C09112000B5BF97 /* AppDelegate.m */; };
+		660525C01C09112000B5BF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BF1C09112000B5BF97 /* ViewController.m */; };
+		660525C31C09112000B5BF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660525C11C09112000B5BF97 /* Main.storyboard */; };
+		660525C51C09112000B5BF97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660525C41C09112000B5BF97 /* Images.xcassets */; };
+		660525C81C09112000B5BF97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660525C61C09112000B5BF97 /* LaunchScreen.xib */; };
+		665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */; };
 		66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */; };
 		730869F21BF8E1E20033F34A /* AGSnapshotHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		730869F91BF8E1E20033F34A /* AGSnapshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */; };
@@ -21,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		660525DB1C09113A00B5BF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730869E51BF8E1E20033F34A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660525B41C09112000B5BF97;
+			remoteInfo = AGSnapshotHelperTestApp;
+		};
 		730869FA1BF8E1E20033F34A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 730869E51BF8E1E20033F34A /* Project object */;
@@ -32,6 +46,17 @@
 
 /* Begin PBXFileReference section */
 		32F8B98B5FE5B832C9BA729B /* Pods-AGSnapshotHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelper/Pods-AGSnapshotHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660525B81C09112000B5BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660525B91C09112000B5BF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660525BB1C09112000B5BF97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660525BC1C09112000B5BF97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660525BE1C09112000B5BF97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		660525BF1C09112000B5BF97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		660525C21C09112000B5BF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660525C41C09112000B5BF97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		660525C71C09112000B5BF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPreferredContentSizeCategoryMockerTests.m; sourceTree = "<group>"; };
 		66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategoryTests.m"; sourceTree = "<group>"; };
 		730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGSnapshotHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGSnapshotHelper.h; sourceTree = "<group>"; };
@@ -50,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		660525B21C09112000B5BF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		730869EA1BF8E1E20033F34A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,6 +101,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660525B61C09112000B5BF97 /* AGSnapshotHelperTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				660525BB1C09112000B5BF97 /* AppDelegate.h */,
+				660525BC1C09112000B5BF97 /* AppDelegate.m */,
+				660525BE1C09112000B5BF97 /* ViewController.h */,
+				660525BF1C09112000B5BF97 /* ViewController.m */,
+				660525C11C09112000B5BF97 /* Main.storyboard */,
+				660525C41C09112000B5BF97 /* Images.xcassets */,
+				660525C61C09112000B5BF97 /* LaunchScreen.xib */,
+				660525B71C09112000B5BF97 /* Supporting Files */,
+			);
+			path = AGSnapshotHelperTestApp;
+			sourceTree = "<group>";
+		};
+		660525B71C09112000B5BF97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660525B81C09112000B5BF97 /* Info.plist */,
+				660525B91C09112000B5BF97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		66C7D4CC1C0226F4001C6546 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +138,7 @@
 			children = (
 				730869F01BF8E1E20033F34A /* AGSnapshotHelper */,
 				730869FC1BF8E1E20033F34A /* AGSnapshotHelperTests */,
+				660525B61C09112000B5BF97 /* AGSnapshotHelperTestApp */,
 				730869EF1BF8E1E20033F34A /* Products */,
 				C33CA3EFCE8E3562AFC8F8F8 /* Pods */,
 				DADFECEE254894C173BA31DB /* Frameworks */,
@@ -93,6 +150,7 @@
 			children = (
 				730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */,
 				730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */,
+				660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +174,7 @@
 			children = (
 				66C7D4CC1C0226F4001C6546 /* Categories */,
 				730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */,
+				665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
 			);
 			path = AGSnapshotHelperTests;
@@ -164,6 +223,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		660525B41C09112000B5BF97 /* AGSnapshotHelperTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660525D91C09112000B5BF97 /* Build configuration list for PBXNativeTarget "AGSnapshotHelperTestApp" */;
+			buildPhases = (
+				660525B11C09112000B5BF97 /* Sources */,
+				660525B21C09112000B5BF97 /* Frameworks */,
+				660525B31C09112000B5BF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGSnapshotHelperTestApp;
+			productName = AGSnapshotHelperTestApp;
+			productReference = 660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		730869ED1BF8E1E20033F34A /* AGSnapshotHelper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73086A021BF8E1E20033F34A /* Build configuration list for PBXNativeTarget "AGSnapshotHelper" */;
@@ -196,6 +272,7 @@
 			);
 			dependencies = (
 				730869FB1BF8E1E20033F34A /* PBXTargetDependency */,
+				660525DC1C09113A00B5BF97 /* PBXTargetDependency */,
 			);
 			name = AGSnapshotHelperTests;
 			productName = AGSnapshotHelperTests;
@@ -211,11 +288,15 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = allegro;
 				TargetAttributes = {
+					660525B41C09112000B5BF97 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					730869ED1BF8E1E20033F34A = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 					730869F71BF8E1E20033F34A = {
 						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 660525B41C09112000B5BF97;
 					};
 				};
 			};
@@ -225,6 +306,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 730869E41BF8E1E20033F34A;
 			productRefGroup = 730869EF1BF8E1E20033F34A /* Products */;
@@ -233,11 +315,22 @@
 			targets = (
 				730869ED1BF8E1E20033F34A /* AGSnapshotHelper */,
 				730869F71BF8E1E20033F34A /* AGSnapshotHelperTests */,
+				660525B41C09112000B5BF97 /* AGSnapshotHelperTestApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		660525B31C09112000B5BF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660525C31C09112000B5BF97 /* Main.storyboard in Resources */,
+				660525C81C09112000B5BF97 /* LaunchScreen.xib in Resources */,
+				660525C51C09112000B5BF97 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		730869EC1BF8E1E20033F34A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,13 +381,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		660525B11C09112000B5BF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660525C01C09112000B5BF97 /* ViewController.m in Sources */,
+				660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */,
+				660525BA1C09112000B5BF97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		730869E91BF8E1E20033F34A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				73086A1C1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m in Sources */,
 				73086A181BF8ECA60033F34A /* NSString+ContentSizeCategory.m in Sources */,
-				73086A0B1BF8E32C0033F34A /* AGApplicationMocker.m in Sources */,
+				73086A0B1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +407,18 @@
 			files = (
 				66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */,
 				730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */,
+				665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		660525DC1C09113A00B5BF97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660525B41C09112000B5BF97 /* AGSnapshotHelperTestApp */;
+			targetProxy = 660525DB1C09113A00B5BF97 /* PBXContainerItemProxy */;
+		};
 		730869FB1BF8E1E20033F34A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 730869ED1BF8E1E20033F34A /* AGSnapshotHelper */;
@@ -317,7 +426,54 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		660525C11C09112000B5BF97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660525C21C09112000B5BF97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660525C61C09112000B5BF97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660525C71C09112000B5BF97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		660525D51C09112000B5BF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = AGSnapshotHelperTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		660525D61C09112000B5BF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AGSnapshotHelperTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		73086A001BF8E1E20033F34A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -463,6 +619,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperTestApp.app/AGSnapshotHelperTestApp";
 			};
 			name = Debug;
 		};
@@ -473,12 +630,22 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperTestApp.app/AGSnapshotHelperTestApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		660525D91C09112000B5BF97 /* Build configuration list for PBXNativeTarget "AGSnapshotHelperTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660525D51C09112000B5BF97 /* Debug */,
+				660525D61C09112000B5BF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		730869E81BF8E1E20033F34A /* Build configuration list for PBXProject "AGSnapshotHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
