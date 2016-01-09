@@ -15,16 +15,8 @@
 		660525C81C09112000B5BF97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660525C61C09112000B5BF97 /* LaunchScreen.xib */; };
 		665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */; };
 		66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */; };
-		730869F21BF8E1E20033F34A /* AGSnapshotHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		730869F91BF8E1E20033F34A /* AGSnapshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */; };
 		730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */; };
-		73086A0A1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A081BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		73086A0B1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 73086A091BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m */; };
-		73086A171BF8ECA60033F34A /* NSString+ContentSizeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A151BF8ECA60033F34A /* NSString+ContentSizeCategory.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		73086A181BF8ECA60033F34A /* NSString+ContentSizeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73086A161BF8ECA60033F34A /* NSString+ContentSizeCategory.m */; };
-		73086A1B1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73086A191BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73086A1C1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73086A1A1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m */; };
-		B206C546D94D51B7B2DA5B78 /* libPods-AGSnapshotHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99966335B3CC3B094709D46B /* libPods-AGSnapshotHelper.a */; };
+		D5C09A949A2FA3C201EF5F26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B20C8240475B944501D769B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +27,10 @@
 			remoteGlobalIDString = 660525B41C09112000B5BF97;
 			remoteInfo = AGSnapshotHelperTestApp;
 		};
-		730869FA1BF8E1E20033F34A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 730869E51BF8E1E20033F34A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 730869ED1BF8E1E20033F34A;
-			remoteInfo = AGSnapshotHelper;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32F8B98B5FE5B832C9BA729B /* Pods-AGSnapshotHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelper/Pods-AGSnapshotHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		385354071D7CD59B9141EABC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660525B81C09112000B5BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660525B91C09112000B5BF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,20 +43,12 @@
 		660525C71C09112000B5BF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPreferredContentSizeCategoryMockerTests.m; sourceTree = "<group>"; };
 		66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategoryTests.m"; sourceTree = "<group>"; };
-		730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGSnapshotHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGSnapshotHelper.h; sourceTree = "<group>"; };
-		730869F31BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSnapshotHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGSnapshotHelperTests.m; sourceTree = "<group>"; };
 		730869FF1BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73086A081BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPreferredContentSizeCategoryMocker.h; sourceTree = "<group>"; };
-		73086A091BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPreferredContentSizeCategoryMocker.m; sourceTree = "<group>"; };
-		73086A151BF8ECA60033F34A /* NSString+ContentSizeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ContentSizeCategory.h"; sourceTree = "<group>"; };
-		73086A161BF8ECA60033F34A /* NSString+ContentSizeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategory.m"; sourceTree = "<group>"; };
-		73086A191BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase+AGSnapshotHelper.h"; sourceTree = "<group>"; };
-		73086A1A1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+AGSnapshotHelper.m"; sourceTree = "<group>"; };
 		99966335B3CC3B094709D46B /* libPods-AGSnapshotHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGSnapshotHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0F9BE392371745401A98330 /* Pods-AGSnapshotHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelper/Pods-AGSnapshotHelper.release.xcconfig"; sourceTree = "<group>"; };
+		9B20C8240475B944501D769B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1DD3473A75B3321E2BDEA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,19 +59,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		730869EA1BF8E1E20033F34A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B206C546D94D51B7B2DA5B78 /* libPods-AGSnapshotHelper.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		730869F51BF8E1E20033F34A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				730869F91BF8E1E20033F34A /* AGSnapshotHelper.framework in Frameworks */,
+				D5C09A949A2FA3C201EF5F26 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,9 +105,8 @@
 		730869E41BF8E1E20033F34A = {
 			isa = PBXGroup;
 			children = (
-				730869F01BF8E1E20033F34A /* AGSnapshotHelper */,
-				730869FC1BF8E1E20033F34A /* AGSnapshotHelperTests */,
 				660525B61C09112000B5BF97 /* AGSnapshotHelperTestApp */,
+				730869FC1BF8E1E20033F34A /* AGSnapshotHelperTests */,
 				730869EF1BF8E1E20033F34A /* Products */,
 				C33CA3EFCE8E3562AFC8F8F8 /* Pods */,
 				DADFECEE254894C173BA31DB /* Frameworks */,
@@ -148,52 +116,28 @@
 		730869EF1BF8E1E20033F34A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */,
 				730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */,
 				660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		730869F01BF8E1E20033F34A /* AGSnapshotHelper */ = {
-			isa = PBXGroup;
-			children = (
-				73086A0C1BF8EC4B0033F34A /* Categories */,
-				73086A081BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h */,
-				73086A091BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m */,
-				73086A191BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h */,
-				73086A1A1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m */,
-				730869F11BF8E1E20033F34A /* AGSnapshotHelper.h */,
-				730869F31BF8E1E20033F34A /* Info.plist */,
-			);
-			path = AGSnapshotHelper;
-			sourceTree = "<group>";
-		};
 		730869FC1BF8E1E20033F34A /* AGSnapshotHelperTests */ = {
 			isa = PBXGroup;
 			children = (
 				66C7D4CC1C0226F4001C6546 /* Categories */,
-				730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */,
 				665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */,
+				730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
 			);
 			path = AGSnapshotHelperTests;
 			sourceTree = "<group>";
 		};
-		73086A0C1BF8EC4B0033F34A /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				73086A151BF8ECA60033F34A /* NSString+ContentSizeCategory.h */,
-				73086A161BF8ECA60033F34A /* NSString+ContentSizeCategory.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
 		C33CA3EFCE8E3562AFC8F8F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32F8B98B5FE5B832C9BA729B /* Pods-AGSnapshotHelper.debug.xcconfig */,
-				B0F9BE392371745401A98330 /* Pods-AGSnapshotHelper.release.xcconfig */,
+				EF1DD3473A75B3321E2BDEA7 /* Pods.debug.xcconfig */,
+				385354071D7CD59B9141EABC /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -202,25 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				99966335B3CC3B094709D46B /* libPods-AGSnapshotHelper.a */,
+				9B20C8240475B944501D769B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		730869EB1BF8E1E20033F34A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73086A1B1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.h in Headers */,
-				73086A171BF8ECA60033F34A /* NSString+ContentSizeCategory.h in Headers */,
-				73086A0A1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.h in Headers */,
-				730869F21BF8E1E20033F34A /* AGSnapshotHelper.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		660525B41C09112000B5BF97 /* AGSnapshotHelperTestApp */ = {
@@ -240,38 +171,20 @@
 			productReference = 660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		730869ED1BF8E1E20033F34A /* AGSnapshotHelper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73086A021BF8E1E20033F34A /* Build configuration list for PBXNativeTarget "AGSnapshotHelper" */;
-			buildPhases = (
-				6A12B16CAED89B909BFF30A8 /* Check Pods Manifest.lock */,
-				730869E91BF8E1E20033F34A /* Sources */,
-				730869EA1BF8E1E20033F34A /* Frameworks */,
-				730869EB1BF8E1E20033F34A /* Headers */,
-				730869EC1BF8E1E20033F34A /* Resources */,
-				2CE1EB0E49D9FFDCA5B6C80E /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AGSnapshotHelper;
-			productName = AGSnapshotHelper;
-			productReference = 730869EE1BF8E1E20033F34A /* AGSnapshotHelper.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		730869F71BF8E1E20033F34A /* AGSnapshotHelperTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73086A051BF8E1E20033F34A /* Build configuration list for PBXNativeTarget "AGSnapshotHelperTests" */;
 			buildPhases = (
+				16FED31D00C7AF6EA4B76849 /* Check Pods Manifest.lock */,
 				730869F41BF8E1E20033F34A /* Sources */,
 				730869F51BF8E1E20033F34A /* Frameworks */,
 				730869F61BF8E1E20033F34A /* Resources */,
+				CECA45470ACD508D9DB1F973 /* Embed Pods Frameworks */,
+				9BDEABCAC6FCC5C7455F38EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				730869FB1BF8E1E20033F34A /* PBXTargetDependency */,
 				660525DC1C09113A00B5BF97 /* PBXTargetDependency */,
 			);
 			name = AGSnapshotHelperTests;
@@ -285,14 +198,11 @@
 		730869E51BF8E1E20033F34A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = allegro;
 				TargetAttributes = {
 					660525B41C09112000B5BF97 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					730869ED1BF8E1E20033F34A = {
-						CreatedOnToolsVersion = 7.1.1;
 					};
 					730869F71BF8E1E20033F34A = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -313,7 +223,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				730869ED1BF8E1E20033F34A /* AGSnapshotHelper */,
 				730869F71BF8E1E20033F34A /* AGSnapshotHelperTests */,
 				660525B41C09112000B5BF97 /* AGSnapshotHelperTestApp */,
 			);
@@ -331,13 +240,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		730869EC1BF8E1E20033F34A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		730869F61BF8E1E20033F34A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,22 +250,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CE1EB0E49D9FFDCA5B6C80E /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGSnapshotHelper/Pods-AGSnapshotHelper-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A12B16CAED89B909BFF30A8 /* Check Pods Manifest.lock */ = {
+		16FED31D00C7AF6EA4B76849 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,6 +265,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		9BDEABCAC6FCC5C7455F38EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECA45470ACD508D9DB1F973 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -388,16 +305,6 @@
 				660525C01C09112000B5BF97 /* ViewController.m in Sources */,
 				660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */,
 				660525BA1C09112000B5BF97 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		730869E91BF8E1E20033F34A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73086A1C1BF8F1590033F34A /* FBSnapshotTestCase+AGSnapshotHelper.m in Sources */,
-				73086A181BF8ECA60033F34A /* NSString+ContentSizeCategory.m in Sources */,
-				73086A0B1BF8E32C0033F34A /* AGPreferredContentSizeCategoryMocker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,11 +325,6 @@
 			isa = PBXTargetDependency;
 			target = 660525B41C09112000B5BF97 /* AGSnapshotHelperTestApp */;
 			targetProxy = 660525DB1C09113A00B5BF97 /* PBXContainerItemProxy */;
-		};
-		730869FB1BF8E1E20033F34A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 730869ED1BF8E1E20033F34A /* AGSnapshotHelper */;
-			targetProxy = 730869FA1BF8E1E20033F34A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -459,6 +361,7 @@
 				INFOPLIST_FILE = AGSnapshotHelperTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allegro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -470,6 +373,7 @@
 				INFOPLIST_FILE = AGSnapshotHelperTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allegro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -564,56 +468,9 @@
 			};
 			name = Release;
 		};
-		73086A031BF8E1E20033F34A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32F8B98B5FE5B832C9BA729B /* Pods-AGSnapshotHelper.debug.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AGSnapshotHelper/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-Wall",
-					"-Wextra",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		73086A041BF8E1E20033F34A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0F9BE392371745401A98330 /* Pods-AGSnapshotHelper.release.xcconfig */;
-			buildSettings = {
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AGSnapshotHelper/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-Wall",
-					"-Wextra",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		73086A061BF8E1E20033F34A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1DD3473A75B3321E2BDEA7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AGSnapshotHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -625,6 +482,7 @@
 		};
 		73086A071BF8E1E20033F34A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385354071D7CD59B9141EABC /* Pods.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AGSnapshotHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -651,15 +509,6 @@
 			buildConfigurations = (
 				73086A001BF8E1E20033F34A /* Debug */,
 				73086A011BF8E1E20033F34A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73086A021BF8E1E20033F34A /* Build configuration list for PBXNativeTarget "AGSnapshotHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73086A031BF8E1E20033F34A /* Debug */,
-				73086A041BF8E1E20033F34A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
