@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */; };
 		660525BA1C09112000B5BF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525B91C09112000B5BF97 /* main.m */; };
 		660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BC1C09112000B5BF97 /* AppDelegate.m */; };
 		660525C01C09112000B5BF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BF1C09112000B5BF97 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		660525C81C09112000B5BF97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660525C61C09112000B5BF97 /* LaunchScreen.xib */; };
 		665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */; };
 		66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */; };
-		730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */; };
 		D5C09A949A2FA3C201EF5F26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B20C8240475B944501D769B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		385354071D7CD59B9141EABC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+AGSnapshotHelperTests.m"; sourceTree = "<group>"; };
 		660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660525B81C09112000B5BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660525B91C09112000B5BF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPreferredContentSizeCategoryMockerTests.m; sourceTree = "<group>"; };
 		66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategoryTests.m"; sourceTree = "<group>"; };
 		730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSnapshotHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGSnapshotHelperTests.m; sourceTree = "<group>"; };
 		730869FF1BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99966335B3CC3B094709D46B /* libPods-AGSnapshotHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGSnapshotHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B20C8240475B944501D769B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +127,7 @@
 			children = (
 				66C7D4CC1C0226F4001C6546 /* Categories */,
 				665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */,
-				730869FD1BF8E1E20033F34A /* AGSnapshotHelperTests.m */,
+				41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
 			);
 			path = AGSnapshotHelperTests;
@@ -313,7 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */,
-				730869FE1BF8E1E20033F34A /* AGSnapshotHelperTests.m in Sources */,
+				415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */,
 				665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
