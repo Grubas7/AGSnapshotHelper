@@ -6,10 +6,9 @@
 //  Copyright (c) 2015 allegro. All rights reserved.
 //
 
-#import "AGPreferredContentSizeCategoryMocker.h"
-
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <UIKit/UIKit.h>
+#import <AGSnapshotHelper/AGPreferredContentSizeCategoryMocker.h>
 
 @interface AGPreferredContentSizeCategoryMockerTests : XCTestCase
 

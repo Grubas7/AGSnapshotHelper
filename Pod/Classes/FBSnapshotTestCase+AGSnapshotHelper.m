@@ -21,20 +21,14 @@
 
 - (void)testLayer:(CALayer *)layer contentSizeCategory:(NSString *)contentSizeCategory {
 
-    NSAssert1([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
+    XCTAssertTrue([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
 
     AGPreferredContentSizeCategoryMocker *mocker = [[AGPreferredContentSizeCategoryMocker alloc] init];
     [mocker startMockingPreferredContentSizeCategory:contentSizeCategory];
 
-    FBSnapshotTestController *snapshotTestController = [[FBSnapshotTestController alloc] initWithTestName:@"testName"];
-    BOOL compareSuccessful = [snapshotTestController compareSnapshotOfLayer:layer
-                                                                   selector:self.invocation.selector
-                                                                 identifier:nil
-                                                                      error:nil];
+    FBSnapshotVerifyLayer(layer, nil);
 
     [mocker stopMockingPreferredContentSizeCategory];
-
-    NSAssert(compareSuccessful, @"Comparasion failed.");
 }
 
 @end
