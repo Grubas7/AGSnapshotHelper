@@ -9,6 +9,7 @@
 #import "FBSnapshotTestCase+AGSnapshotHelper.h"
 #import "AGPreferredContentSizeCategoryMocker.h"
 #import "NSString+ContentSizeCategory.h"
+#import "NSNotificationCenter+AGContentSizeCategory.h"
 
 #import <FBSnapshotTestCase/FBSnapshotTestController.h>
 
@@ -25,6 +26,8 @@
 
     AGPreferredContentSizeCategoryMocker *mocker = [[AGPreferredContentSizeCategoryMocker alloc] init];
     [mocker startMockingPreferredContentSizeCategory:contentSizeCategory];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationChangeWithContentSizeCategory:contentSizeCategory];
 
     FBSnapshotVerifyLayer(layer, nil);
 

@@ -10,7 +10,7 @@
 
 @interface AGPreferredContentSizeCategoryMocker : NSObject
 
-- (void)startMockingPreferredContentSizeCategory:(NSString *)contentSizeCategory;
+- (void)startMockingPreferredContentSizeCategory:(nonnull NSString *)contentSizeCategory;
 
 - (void)stopMockingPreferredContentSizeCategory;
 

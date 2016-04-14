@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43A1F14C1C4AB40C002AF7A3"
+               BuildableName = "AGSnapshotHelperExampleTests.xctest"
+               BlueprintName = "AGSnapshotHelperExampleTests"
+               ReferencedContainer = "container:AGSnapshotHelperExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

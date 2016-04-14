@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F48B26D54BA2F9CE26032A /* libPods-AGSnapshotHelperExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF195718F18228EC12C4252 /* libPods-AGSnapshotHelperExampleTests.a */; };
+		411D37181CBA9B1B0040AFDB /* SnapshotHelperExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411D37171CBA9B1B0040AFDB /* SnapshotHelperExampleTests.swift */; };
+		41E84FD41CBA85510056EB9A /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E84FD31CBA85510056EB9A /* ExampleViewController.swift */; };
 		43A1F1391C4AB40B002AF7A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F1381C4AB40B002AF7A3 /* main.m */; };
 		43A1F13C1C4AB40B002AF7A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F13B1C4AB40B002AF7A3 /* AppDelegate.m */; };
-		43A1F13F1C4AB40B002AF7A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F13E1C4AB40B002AF7A3 /* ViewController.m */; };
 		43A1F1421C4AB40B002AF7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F1401C4AB40B002AF7A3 /* Main.storyboard */; };
 		43A1F1441C4AB40B002AF7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F1431C4AB40B002AF7A3 /* Assets.xcassets */; };
 		43A1F1471C4AB40B002AF7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F1451C4AB40B002AF7A3 /* LaunchScreen.storyboard */; };
-		43A1F1521C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A1F1511C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests.m */; };
+		E04433B8EDC894920E10332F /* Pods_AGSnapshotHelperExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9833EB10E7D8DD9F92811003 /* Pods_AGSnapshotHelperExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,23 +29,24 @@
 
 /* Begin PBXFileReference section */
 		158ED063B6AA12FB51547321 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		411D37171CBA9B1B0040AFDB /* SnapshotHelperExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelperExampleTests.swift; sourceTree = "<group>"; };
+		41E84FD01CBA84AB0056EB9A /* AGSnapshotHelperExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGSnapshotHelperExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		41E84FD31CBA85510056EB9A /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		41E84FD51CBA98E60056EB9A /* AGSnapshotHelperExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGSnapshotHelperExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		43A1F1341C4AB40B002AF7A3 /* AGSnapshotHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A1F1381C4AB40B002AF7A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43A1F13A1C4AB40B002AF7A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43A1F13B1C4AB40B002AF7A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43A1F13D1C4AB40B002AF7A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		43A1F13E1C4AB40B002AF7A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		43A1F1411C4AB40B002AF7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43A1F1431C4AB40B002AF7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A1F1461C4AB40B002AF7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43A1F1481C4AB40B002AF7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A1F14D1C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSnapshotHelperExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43A1F1511C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGSnapshotHelperExampleTests.m; sourceTree = "<group>"; };
 		43A1F1531C4AB40C002AF7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A1F15C1C4AB6DB002AF7A3 /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGSnapshotHelper.framework; path = "Pods/../build/Debug-iphoneos/AGSnapshotHelper.framework"; sourceTree = "<group>"; };
 		43A1F15E1C4AB70C002AF7A3 /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGSnapshotHelper.framework; path = "Pods/../build/Debug-iphoneos/AGSnapshotHelper.framework"; sourceTree = "<group>"; };
 		761F5B1C4F8DCA007F6BC410 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		CEF195718F18228EC12C4252 /* libPods-AGSnapshotHelperExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGSnapshotHelperExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9833EB10E7D8DD9F92811003 /* Pods_AGSnapshotHelperExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSnapshotHelperExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06F48B26D54BA2F9CE26032A /* libPods-AGSnapshotHelperExampleTests.a in Frameworks */,
+				E04433B8EDC894920E10332F /* Pods_AGSnapshotHelperExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +73,7 @@
 			children = (
 				43A1F15E1C4AB70C002AF7A3 /* AGSnapshotHelper.framework */,
 				43A1F15C1C4AB6DB002AF7A3 /* AGSnapshotHelper.framework */,
-				CEF195718F18228EC12C4252 /* libPods-AGSnapshotHelperExampleTests.a */,
+				9833EB10E7D8DD9F92811003 /* Pods_AGSnapshotHelperExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,12 +103,12 @@
 			children = (
 				43A1F13A1C4AB40B002AF7A3 /* AppDelegate.h */,
 				43A1F13B1C4AB40B002AF7A3 /* AppDelegate.m */,
-				43A1F13D1C4AB40B002AF7A3 /* ViewController.h */,
-				43A1F13E1C4AB40B002AF7A3 /* ViewController.m */,
+				41E84FD31CBA85510056EB9A /* ExampleViewController.swift */,
 				43A1F1401C4AB40B002AF7A3 /* Main.storyboard */,
 				43A1F1431C4AB40B002AF7A3 /* Assets.xcassets */,
 				43A1F1451C4AB40B002AF7A3 /* LaunchScreen.storyboard */,
 				43A1F1481C4AB40B002AF7A3 /* Info.plist */,
+				41E84FD01CBA84AB0056EB9A /* AGSnapshotHelperExample-Bridging-Header.h */,
 				43A1F1371C4AB40B002AF7A3 /* Supporting Files */,
 			);
 			path = AGSnapshotHelperExample;
@@ -124,7 +125,8 @@
 		43A1F1501C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				43A1F1511C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests.m */,
+				411D37171CBA9B1B0040AFDB /* SnapshotHelperExampleTests.swift */,
+				41E84FD51CBA98E60056EB9A /* AGSnapshotHelperExampleTests-Bridging-Header.h */,
 				43A1F1531C4AB40C002AF7A3 /* Info.plist */,
 			);
 			path = AGSnapshotHelperExampleTests;
@@ -186,6 +188,7 @@
 		43A1F12C1C4AB40B002AF7A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Allegro Group";
 				TargetAttributes = {
@@ -290,8 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A1F13F1C4AB40B002AF7A3 /* ViewController.m in Sources */,
 				43A1F13C1C4AB40B002AF7A3 /* AppDelegate.m in Sources */,
+				41E84FD41CBA85510056EB9A /* ExampleViewController.swift in Sources */,
 				43A1F1391C4AB40B002AF7A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A1F1521C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests.m in Sources */,
+				411D37181CBA9B1B0040AFDB /* SnapshotHelperExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -407,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -418,14 +421,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = AGSnapshotHelperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allegrogroup.AGSnapshotHelperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExample/AGSnapshotHelperExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -433,14 +440,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = AGSnapshotHelperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allegrogroup.AGSnapshotHelperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExample/AGSnapshotHelperExample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -449,10 +459,13 @@
 			baseConfigurationReference = 158ED063B6AA12FB51547321 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AGSnapshotHelperExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExampleTests/AGSnapshotHelperExampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperExample.app/AGSnapshotHelperExample";
 			};
 			name = Debug;
@@ -462,10 +475,12 @@
 			baseConfigurationReference = 761F5B1C4F8DCA007F6BC410 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AGSnapshotHelperExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExampleTests/AGSnapshotHelperExampleTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperExample.app/AGSnapshotHelperExample";
 			};
 			name = Release;
