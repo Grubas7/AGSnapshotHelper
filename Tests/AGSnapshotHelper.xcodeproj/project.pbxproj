@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144A6131D00CC4D009B134D /* AGSampleView.m */; };
 		415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */; };
 		660525BA1C09112000B5BF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525B91C09112000B5BF97 /* main.m */; };
 		660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BC1C09112000B5BF97 /* AppDelegate.m */; };
@@ -31,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		385354071D7CD59B9141EABC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4144A6121D00CC4D009B134D /* AGSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSampleView.h; sourceTree = "<group>"; };
+		4144A6131D00CC4D009B134D /* AGSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSampleView.m; sourceTree = "<group>"; };
 		41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+AGSnapshotHelperTests.m"; sourceTree = "<group>"; };
 		660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660525B81C09112000B5BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				66C7D4CC1C0226F4001C6546 /* Categories */,
 				665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */,
 				41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */,
+				4144A6121D00CC4D009B134D /* AGSampleView.h */,
+				4144A6131D00CC4D009B134D /* AGSampleView.m */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
 			);
 			path = AGSnapshotHelperTests;
@@ -314,6 +319,7 @@
 			files = (
 				66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */,
 				415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */,
+				4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */,
 				665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

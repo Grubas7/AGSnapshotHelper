@@ -3,7 +3,7 @@
 //  AGSnapshotHelper
 //
 //  Created by Adam Grzegorowski on 15/11/15.
-//  Copyright © 2015 allegro. All rights reserved.
+//  Copyright © 2015 Allegro Group. All rights reserved.
 //
 
 #import "FBSnapshotTestCase+AGSnapshotHelper.h"
@@ -15,21 +15,62 @@
 
 @implementation FBSnapshotTestCase (AGSnapshotHelper)
 
-- (void)testView:(UIView *)view contentSizeCategory:(NSString *)contentSizeCategory {
-
-    [self testLayer:view.layer contentSizeCategory:contentSizeCategory];
+- (void)testView:(nonnull UIView *)view {
+    [self testView:view contentSizeCategory:nil identifier:nil];
 }
 
-- (void)testLayer:(CALayer *)layer contentSizeCategory:(NSString *)contentSizeCategory {
+- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull NSString *)contentSizeCategory {
+    [self testView:view contentSizeCategory:contentSizeCategory identifier:nil];
+}
 
-    XCTAssertTrue([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
+- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull NSString *)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask {
 
-    AGPreferredContentSizeCategoryMocker *mocker = [[AGPreferredContentSizeCategoryMocker alloc] init];
-    [mocker startMockingPreferredContentSizeCategory:contentSizeCategory];
-    
-    [[NSNotificationCenter defaultCenter] postNotificationChangeWithContentSizeCategory:contentSizeCategory];
+    NSArray<NSValue *> *sizes  = [AGWindowBoundsSizesMaskConverter windowBoundsSizesForMask:mask];
+    if (sizes == nil) {
 
-    FBSnapshotVerifyLayer(layer, nil);
+        [self testView:view contentSizeCategory:contentSizeCategory identifier:nil];
+        return;
+    }
+
+    for (NSValue *sizeValue in sizes) {
+
+        CGSize size = sizeValue.CGSizeValue;
+        CGRect newFrame = view.frame;
+        newFrame.size = size;
+        view.frame = newFrame;
+        [view layoutIfNeeded];
+
+        NSString *identifier = [AGWindowBoundsSizesMaskConverter nameForSize:size];
+
+        [self testView:view contentSizeCategory:contentSizeCategory identifier:identifier];
+    }
+}
+
+- (void)testView:(nonnull UIView *)view contentSizeCategory:(nullable NSString *)contentSizeCategory identifier:(nullable NSString *)identifier {
+
+    AGPreferredContentSizeCategoryMocker *mocker;
+    if (contentSizeCategory != nil) {
+        XCTAssertTrue([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
+
+        mocker = [[AGPreferredContentSizeCategoryMocker alloc] init];
+        [mocker startMockingPreferredContentSizeCategory:contentSizeCategory];
+
+        [[NSNotificationCenter defaultCenter] postNotificationChangeWithContentSizeCategory:contentSizeCategory];
+    }
+
+    NSMutableString *identifierString = [NSMutableString string];
+    if (contentSizeCategory != nil && identifier != nil) {
+        [identifierString appendFormat:@"%@_%@", contentSizeCategory, identifier];
+    } else {
+        if (contentSizeCategory != nil) {
+            [identifierString appendFormat:@"%@", contentSizeCategory];
+        }
+        if (identifier != nil) {
+            [identifierString appendFormat:@"%@", identifier];
+        }
+    }
+
+    FBSnapshotVerifyView(view, identifierString);
 
     [mocker stopMockingPreferredContentSizeCategory];
 }
