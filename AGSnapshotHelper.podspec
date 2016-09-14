@@ -1,17 +1,8 @@
 Pod::Spec.new do |s|
     s.name             = 'AGSnapshotHelper'
     s.version          = '0.0.1'
-    s.summary          = 'A short description of ${POD_NAME}.'
-
-    # This description is used to generate tags and improve search results.
-    #   * Think: What does it do? Why did you write it? What is the focus?
-    #   * Try to keep it short, snappy and to the point.
-    #   * Write the description between the DESC delimiters below.
-    #   * Finally, don't worry about the indent, CocoaPods strips it!
-    s.description      = <<-DESC
-    DESC
-
-    s.source           = { :git => 'https://github.com/Grubas7/AGSnapshotHelper', :tag => s.version.to_s }
+    s.summary          = 'Extension helps make snapshots for many content size categories at the same time.'
+    s.source           = { :git => 'https://github.com/Grubas7/AGSnapshotHelper.git', :tag => s.version.to_s }
     s.authors          = { 'Allegro Group' => 'email@address.com' }
     s.license          = 'Apache License, v2.0.'
     s.homepage         = 'http://allegro.tech/open-source/'
