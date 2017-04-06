@@ -19,23 +19,23 @@ class ExampleViewController: UIViewController {
     }
 
     override func viewDidLoad() {
-        let initialContentSizeCategory = UIApplication.sharedApplication().preferredContentSizeCategory
-        updateLabelWithText(initialContentSizeCategory)
+        let initialContentSizeCategory = UIApplication.shared.preferredContentSizeCategory
+        updateLabelWithText(initialContentSizeCategory.rawValue)
     }
 
     private func setUpAccessibilityObserver() {
-        let mainQueue = NSOperationQueue.mainQueue()
-
-        NSNotificationCenter.defaultCenter().addObserverForName(UIContentSizeCategoryDidChangeNotification, object: nil, queue: mainQueue) { notification in
-            if let userInfo = notification.userInfo, newContentSize = userInfo[UIContentSizeCategoryNewValueKey] as? String {
-                self.updateLabelWithText(newContentSize)
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIContentSizeCategoryDidChange,
+                                               object: nil,
+                                               queue: nil) { notification in
+            if let userInfo = notification.userInfo, let newContentSize = userInfo[UIContentSizeCategoryNewValueKey] as? UIContentSizeCategory {
+                self.updateLabelWithText(newContentSize.rawValue)
             }
         }
     }
 
-    private func updateLabelWithText(text: String) {
+    private func updateLabelWithText(_ text: String) {
         label.text = text
-        label.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
+        label.font = UIFont.preferredFont(forTextStyle: .body)
         label.updateConstraintsIfNeeded()
     }
 }
