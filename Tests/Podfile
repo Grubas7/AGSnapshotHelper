@@ -1,5 +1,5 @@
 platform :ios, '8.0'
 
-pod 'AGSnapshotHelper', :path => '../AGSnapshotHelper.podspec'
-pod 'OCMock', '~> 3.2'
-pod 'FBSnapshotTestCase/Core', '~> 2.0'
+target 'AGSnapshotHelperTests' do
+    pod 'AGSnapshotHelper', :path => '../AGSnapshotHelper.podspec'
+end
