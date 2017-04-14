@@ -14,7 +14,7 @@
 		43A1F1421C4AB40B002AF7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F1401C4AB40B002AF7A3 /* Main.storyboard */; };
 		43A1F1441C4AB40B002AF7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F1431C4AB40B002AF7A3 /* Assets.xcassets */; };
 		43A1F1471C4AB40B002AF7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A1F1451C4AB40B002AF7A3 /* LaunchScreen.storyboard */; };
-		E04433B8EDC894920E10332F /* Pods_AGSnapshotHelperExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9833EB10E7D8DD9F92811003 /* Pods_AGSnapshotHelperExampleTests.framework */; };
+		D94DF1C457BBD19A14FB1866 /* Pods_AGSnapshotHelperExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E05B61F7161CC57B0899DC0 /* Pods_AGSnapshotHelperExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		158ED063B6AA12FB51547321 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		411D37171CBA9B1B0040AFDB /* SnapshotHelperExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelperExampleTests.swift; sourceTree = "<group>"; };
 		41E84FD01CBA84AB0056EB9A /* AGSnapshotHelperExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGSnapshotHelperExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		41E84FD31CBA85510056EB9A /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
@@ -45,8 +44,9 @@
 		43A1F1531C4AB40C002AF7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A1F15C1C4AB6DB002AF7A3 /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGSnapshotHelper.framework; path = "Pods/../build/Debug-iphoneos/AGSnapshotHelper.framework"; sourceTree = "<group>"; };
 		43A1F15E1C4AB70C002AF7A3 /* AGSnapshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGSnapshotHelper.framework; path = "Pods/../build/Debug-iphoneos/AGSnapshotHelper.framework"; sourceTree = "<group>"; };
-		761F5B1C4F8DCA007F6BC410 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		9833EB10E7D8DD9F92811003 /* Pods_AGSnapshotHelperExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSnapshotHelperExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E05B61F7161CC57B0899DC0 /* Pods_AGSnapshotHelperExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSnapshotHelperExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60682A0D0A768ACF6A347388 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A45725B8348007FB73F97613 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04433B8EDC894920E10332F /* Pods_AGSnapshotHelperExampleTests.framework in Frameworks */,
+				D94DF1C457BBD19A14FB1866 /* Pods_AGSnapshotHelperExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 			children = (
 				43A1F15E1C4AB70C002AF7A3 /* AGSnapshotHelper.framework */,
 				43A1F15C1C4AB6DB002AF7A3 /* AGSnapshotHelper.framework */,
-				9833EB10E7D8DD9F92811003 /* Pods_AGSnapshotHelperExampleTests.framework */,
+				4E05B61F7161CC57B0899DC0 /* Pods_AGSnapshotHelperExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,8 +84,8 @@
 				43A1F1361C4AB40B002AF7A3 /* AGSnapshotHelperExample */,
 				43A1F1501C4AB40C002AF7A3 /* AGSnapshotHelperExampleTests */,
 				43A1F1351C4AB40B002AF7A3 /* Products */,
-				F7B77553A78AFA7019677866 /* Pods */,
 				1325010B2C8D3D30FE1F8D5A /* Frameworks */,
+				F1158A0F1FBEFBF581D0C18B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,11 +132,11 @@
 			path = AGSnapshotHelperExampleTests;
 			sourceTree = "<group>";
 		};
-		F7B77553A78AFA7019677866 /* Pods */ = {
+		F1158A0F1FBEFBF581D0C18B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				158ED063B6AA12FB51547321 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */,
-				761F5B1C4F8DCA007F6BC410 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */,
+				A45725B8348007FB73F97613 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */,
+				60682A0D0A768ACF6A347388 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -165,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43A1F1591C4AB40C002AF7A3 /* Build configuration list for PBXNativeTarget "AGSnapshotHelperExampleTests" */;
 			buildPhases = (
-				1C25F4D715726597207BD12F /* Check Pods Manifest.lock */,
+				E987264F9C8444F2883E0D59 /* [CP] Check Pods Manifest.lock */,
 				43A1F1491C4AB40C002AF7A3 /* Sources */,
 				43A1F14A1C4AB40C002AF7A3 /* Frameworks */,
 				43A1F14B1C4AB40C002AF7A3 /* Resources */,
-				0E10F5A9F60A4DD160D53669 /* Embed Pods Frameworks */,
-				3FC31FCAA0ABB3BF78D474B0 /* Copy Pods Resources */,
+				F965C1F933F578E62D3F4FD9 /* [CP] Embed Pods Frameworks */,
+				2619EA354B498B16FEA7C0A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,14 +189,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Allegro Group";
 				TargetAttributes = {
 					43A1F1331C4AB40B002AF7A3 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 					};
 					43A1F14C1C4AB40C002AF7A3 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 43A1F1331C4AB40B002AF7A3;
 					};
 				};
@@ -241,49 +243,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E10F5A9F60A4DD160D53669 /* Embed Pods Frameworks */ = {
+		2619EA354B498B16FEA7C0A1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1C25F4D715726597207BD12F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3FC31FCAA0ABB3BF78D474B0 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E987264F9C8444F2883E0D59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F965C1F933F578E62D3F4FD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -350,8 +352,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -373,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -393,8 +397,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -410,9 +416,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -427,12 +434,12 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = AGSnapshotHelperExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegrogroup.AGSnapshotHelperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExample/AGSnapshotHelperExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -446,17 +453,17 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = AGSnapshotHelperExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegrogroup.AGSnapshotHelperExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExample/AGSnapshotHelperExample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		43A1F15A1C4AB40C002AF7A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 158ED063B6AA12FB51547321 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */;
+			baseConfigurationReference = A45725B8348007FB73F97613 /* Pods-AGSnapshotHelperExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -466,13 +473,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExampleTests/AGSnapshotHelperExampleTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperExample.app/AGSnapshotHelperExample";
 			};
 			name = Debug;
 		};
 		43A1F15B1C4AB40C002AF7A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 761F5B1C4F8DCA007F6BC410 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */;
+			baseConfigurationReference = 60682A0D0A768ACF6A347388 /* Pods-AGSnapshotHelperExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -481,6 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperExampleTests/AGSnapshotHelperExampleTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperExample.app/AGSnapshotHelperExample";
 			};
 			name = Release;
