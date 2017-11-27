@@ -206,9 +206,11 @@
 				TargetAttributes = {
 					660525B41C09112000B5BF97 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 					};
 					730869F71BF8E1E20033F34A = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 660525B41C09112000B5BF97;
 					};
 				};
@@ -369,6 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.allegro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -380,6 +383,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.allegro.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -485,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperTestApp.app/AGSnapshotHelperTestApp";
 			};
 			name = Debug;
@@ -497,6 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperTestApp.app/AGSnapshotHelperTestApp";
 			};
 			name = Release;
