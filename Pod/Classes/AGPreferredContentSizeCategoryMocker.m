@@ -7,9 +7,9 @@
 //
 
 #import "AGPreferredContentSizeCategoryMocker.h"
+#import "UIApplication+PreferredContentSizeCategoryMock.h"
 
-#import <UIKit/UIKit.h>
-#import <OCMock/OCMock.h>
+@import UIKit;
 
 @interface AGPreferredContentSizeCategoryMocker ()
 
@@ -20,15 +20,11 @@
 @implementation AGPreferredContentSizeCategoryMocker
 
 - (void)startMockingPreferredContentSizeCategory:(NSString *)contentSizeCategory {
-
-    self.applicationMock = OCMPartialMock([UIApplication sharedApplication]);
-    OCMStub([self.applicationMock preferredContentSizeCategory]).andReturn(contentSizeCategory);
+    [UIApplication sharedApplication].mockedContentSizeCategory = contentSizeCategory;
 }
 
 - (void)stopMockingPreferredContentSizeCategory {
-
-    [(id)self.applicationMock stopMocking];
-    self.applicationMock = nil;
+    [UIApplication sharedApplication].mockedContentSizeCategory = nil;
 }
 
 @end

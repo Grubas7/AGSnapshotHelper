@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
     s.frameworks       = 'XCTest', 'UIKit', 'Foundation'
 
     s.dependency 'FBSnapshotTestCase/Core', '~> 2.0'
-    s.dependency 'OCMock', '~> 3.2'
 end
