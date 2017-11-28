@@ -7,7 +7,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - OCMock (3.4)
+  - OCMock (3.4.1)
 
 DEPENDENCIES:
   - AGSnapshotHelper (from `..`)
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AGSnapshotHelper: 5e102a001e422401437038947ce6260960a2d8c3
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
+  OCMock: 2cd0716969bab32a2283ff3a46fd26a8c8b4c5e3
 
 PODFILE CHECKSUM: f4185fb79ccff9ca8f3ede1b73c26b837875b20f
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1
