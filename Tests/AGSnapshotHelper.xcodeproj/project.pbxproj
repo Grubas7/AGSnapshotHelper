@@ -10,6 +10,7 @@
 		2AB667C9DD82734696AE3293 /* libPods-AGSnapshotHelperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394AE5D97523A05453B9202D /* libPods-AGSnapshotHelperTests.a */; };
 		4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144A6131D00CC4D009B134D /* AGSampleView.m */; };
 		415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */; };
+		41C3BE3C1FCF6BD0005422D8 /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3BE3B1FCF6BD0005422D8 /* UIApplication+PreferredContentSizeCategoryMockTests.swift */; };
 		660525BA1C09112000B5BF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525B91C09112000B5BF97 /* main.m */; };
 		660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BC1C09112000B5BF97 /* AppDelegate.m */; };
 		660525C01C09112000B5BF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BF1C09112000B5BF97 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		394AE5D97523A05453B9202D /* libPods-AGSnapshotHelperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGSnapshotHelperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4144A6121D00CC4D009B134D /* AGSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSampleView.h; sourceTree = "<group>"; };
 		4144A6131D00CC4D009B134D /* AGSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSampleView.m; sourceTree = "<group>"; };
+		41C3BE3A1FCF6BD0005422D8 /* AGSnapshotHelperTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGSnapshotHelperTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		41C3BE3B1FCF6BD0005422D8 /* UIApplication+PreferredContentSizeCategoryMockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+PreferredContentSizeCategoryMockTests.swift"; sourceTree = "<group>"; };
 		41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+AGSnapshotHelperTests.m"; sourceTree = "<group>"; };
 		660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660525B81C09112000B5BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,9 +150,11 @@
 				66C7D4CC1C0226F4001C6546 /* Categories */,
 				665B9CFF1C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m */,
 				41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */,
+				41C3BE3B1FCF6BD0005422D8 /* UIApplication+PreferredContentSizeCategoryMockTests.swift */,
 				4144A6121D00CC4D009B134D /* AGSampleView.h */,
 				4144A6131D00CC4D009B134D /* AGSampleView.m */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
+				41C3BE3A1FCF6BD0005422D8 /* AGSnapshotHelperTests-Bridging-Header.h */,
 			);
 			path = AGSnapshotHelperTests;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 			files = (
 				66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */,
 				415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */,
+				41C3BE3C1FCF6BD0005422D8 /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */,
 				4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */,
 				665B9D001C0514F7000F292B /* AGPreferredContentSizeCategoryMockerTests.m in Sources */,
 			);
@@ -485,10 +491,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D252BA2622CB50EC0BCE3C1 /* Pods-AGSnapshotHelperTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AGSnapshotHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperTests/AGSnapshotHelperTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperTestApp.app/AGSnapshotHelperTestApp";
 			};
@@ -498,10 +507,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10CDCDF718D6988DFDCD3997 /* Pods-AGSnapshotHelperTests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AGSnapshotHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allegro.AGSnapshotHelperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AGSnapshotHelperTests/AGSnapshotHelperTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGSnapshotHelperTestApp.app/AGSnapshotHelperTestApp";
 			};
