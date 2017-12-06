@@ -7,7 +7,7 @@
 //
 
 #import "FBSnapshotTestCase+AGSnapshotHelper.h"
-#import "AGPreferredContentSizeCategoryMocker.h"
+#import "UIApplication+PreferredContentSizeCategoryMock.h"
 #import "NSString+ContentSizeCategory.h"
 #import "NSNotificationCenter+AGContentSizeCategory.h"
 
@@ -48,13 +48,10 @@
 
 - (void)testView:(nonnull UIView *)view contentSizeCategory:(nullable NSString *)contentSizeCategory identifier:(nullable NSString *)identifier {
 
-    AGPreferredContentSizeCategoryMocker *mocker;
     if (contentSizeCategory != nil) {
         XCTAssertTrue([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
 
-        mocker = [[AGPreferredContentSizeCategoryMocker alloc] init];
-        [mocker startMockingPreferredContentSizeCategory:contentSizeCategory];
-
+        [UIApplication.sharedApplication startMockingPreferredContentSizeCategory:contentSizeCategory];
         [[NSNotificationCenter defaultCenter] postNotificationChangeWithContentSizeCategory:contentSizeCategory];
     }
 
@@ -72,7 +69,7 @@
 
     FBSnapshotVerifyView(view, identifierString);
 
-    [mocker stopMockingPreferredContentSizeCategory];
+    [UIApplication.sharedApplication stopMockingPreferredContentSizeCategory];
 }
 
 @end
