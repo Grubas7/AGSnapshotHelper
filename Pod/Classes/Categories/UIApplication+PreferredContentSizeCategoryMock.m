@@ -15,7 +15,7 @@ static char kContentSizeCategoryKey;
 
 #pragma mark - Public
 
-- (void)startMockingPreferredContentSizeCategory:(nonnull UIContentSizeCategory)contentSizeCategory {
+- (void)startMockingPreferredContentSizeCategory:(UIContentSizeCategory)contentSizeCategory {
     objc_setAssociatedObject(self, &kContentSizeCategoryKey, contentSizeCategory, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 

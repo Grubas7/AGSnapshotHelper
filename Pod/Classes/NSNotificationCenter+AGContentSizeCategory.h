@@ -10,6 +10,6 @@
 
 @interface NSNotificationCenter (AGContentSizeCategory)
 
-- (void)postNotificationChangeWithContentSizeCategory:(nonnull NSString *)contentSizeCategory;
+- (void)postNotificationChangeWithContentSizeCategory:(nonnull UIContentSizeCategory)contentSizeCategory;
 
 @end

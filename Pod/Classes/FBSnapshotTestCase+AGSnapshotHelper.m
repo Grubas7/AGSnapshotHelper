@@ -14,15 +14,15 @@
 
 @implementation FBSnapshotTestCase (AGSnapshotHelper)
 
-- (void)testView:(nonnull UIView *)view {
+- (void)testView:(UIView *)view {
     [self testView:view contentSizeCategory:nil identifier:nil];
 }
 
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull UIContentSizeCategory)contentSizeCategory {
+- (void)testView:(UIView *)view contentSizeCategory:(UIContentSizeCategory)contentSizeCategory {
     [self testView:view contentSizeCategory:contentSizeCategory identifier:nil];
 }
 
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull UIContentSizeCategory)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask {
+- (void)testView:(UIView *)view contentSizeCategory:(UIContentSizeCategory)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask {
 
     NSArray<NSValue *> *sizes  = [AGWindowBoundsSizesMaskConverter windowBoundsSizesForMask:mask];
     if (sizes == nil) {
@@ -47,7 +47,7 @@
 
 #pragma mark - Private methods
 
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nullable UIContentSizeCategory)contentSizeCategory identifier:(nullable NSString *)identifier {
+- (void)testView:(UIView *)view contentSizeCategory:(UIContentSizeCategory)contentSizeCategory identifier:(NSString *)identifier {
 
     if (contentSizeCategory != nil) {
         [UIApplication.sharedApplication startMockingPreferredContentSizeCategory:contentSizeCategory];
