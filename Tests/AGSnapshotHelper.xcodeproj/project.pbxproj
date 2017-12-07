@@ -17,7 +17,6 @@
 		660525C31C09112000B5BF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660525C11C09112000B5BF97 /* Main.storyboard */; };
 		660525C51C09112000B5BF97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660525C41C09112000B5BF97 /* Images.xcassets */; };
 		660525C81C09112000B5BF97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660525C61C09112000B5BF97 /* LaunchScreen.xib */; };
-		66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		660525C21C09112000B5BF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		660525C41C09112000B5BF97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		660525C71C09112000B5BF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ContentSizeCategoryTests.m"; sourceTree = "<group>"; };
 		730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSnapshotHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730869FF1BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D252BA2622CB50EC0BCE3C1 /* Pods-AGSnapshotHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperTests/Pods-AGSnapshotHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				41D6DE771FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift */,
-				66C7D4CD1C022711001C6546 /* NSString+ContentSizeCategoryTests.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -322,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66C7D4CE1C022711001C6546 /* NSString+ContentSizeCategoryTests.m in Sources */,
 				41D6DE781FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */,
 				415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */,
 				4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */,
