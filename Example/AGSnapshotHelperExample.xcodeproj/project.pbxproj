@@ -285,13 +285,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-AGSnapshotHelperExampleTests/Pods-AGSnapshotHelperExampleTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AGSnapshotHelper/AGSnapshotHelper.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AGSnapshotHelper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
