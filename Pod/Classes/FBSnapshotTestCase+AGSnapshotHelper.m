@@ -8,22 +8,21 @@
 
 #import "FBSnapshotTestCase+AGSnapshotHelper.h"
 #import "UIApplication+PreferredContentSizeCategoryMock.h"
-#import "NSString+ContentSizeCategory.h"
 #import "NSNotificationCenter+AGContentSizeCategory.h"
 
 #import <FBSnapshotTestCase/FBSnapshotTestController.h>
 
 @implementation FBSnapshotTestCase (AGSnapshotHelper)
 
-- (void)testView:(nonnull UIView *)view {
+- (void)testView:(UIView *)view {
     [self testView:view contentSizeCategory:nil identifier:nil];
 }
 
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull NSString *)contentSizeCategory {
+- (void)testView:(UIView *)view contentSizeCategory:(UIContentSizeCategory)contentSizeCategory {
     [self testView:view contentSizeCategory:contentSizeCategory identifier:nil];
 }
 
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull NSString *)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask {
+- (void)testView:(UIView *)view contentSizeCategory:(UIContentSizeCategory)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask {
 
     NSArray<NSValue *> *sizes  = [AGWindowBoundsSizesMaskConverter windowBoundsSizesForMask:mask];
     if (sizes == nil) {
@@ -46,11 +45,11 @@
     }
 }
 
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nullable NSString *)contentSizeCategory identifier:(nullable NSString *)identifier {
+#pragma mark - Private methods
+
+- (void)testView:(UIView *)view contentSizeCategory:(UIContentSizeCategory)contentSizeCategory identifier:(NSString *)identifier {
 
     if (contentSizeCategory != nil) {
-        XCTAssertTrue([contentSizeCategory ag_isContentSizeCategory], @"%@ is not a content size category string.", contentSizeCategory);
-
         [UIApplication.sharedApplication startMockingPreferredContentSizeCategory:contentSizeCategory];
         [[NSNotificationCenter defaultCenter] postNotificationChangeWithContentSizeCategory:contentSizeCategory];
     }

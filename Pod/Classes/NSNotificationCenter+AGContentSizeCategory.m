@@ -14,12 +14,12 @@ static NSString *const AGSnapshotHelperBoldAccessibility = @"UIContentSizeCatego
 
 @implementation NSNotificationCenter (AGContentSizeCategory)
 
-- (void)postNotificationChangeWithContentSizeCategory:(NSString *)contentSizeCategory {
+- (void)postNotificationChangeWithContentSizeCategory:(UIContentSizeCategory)contentSizeCategory {
     NSNotification *contentSizeCategoryNotification = [self notificationForContentSizeCategory:contentSizeCategory];
     [self postNotification:contentSizeCategoryNotification];
 }
 
-- (NSNotification *)notificationForContentSizeCategory:(NSString *)contentSizeCategory {
+- (NSNotification *)notificationForContentSizeCategory:(UIContentSizeCategory)contentSizeCategory {
     NSDictionary *userInfo = @{
         AGSnapshotHelperBoldAccessibility: @NO,
         UIContentSizeCategoryNewValueKey: contentSizeCategory

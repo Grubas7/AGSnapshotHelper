@@ -27,7 +27,7 @@
  @see https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/#//apple_ref/doc/constant_group/Content_Size_Category_Constants
  @see https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/#//apple_ref/doc/constant_group/Accessibility_Content_Size_Category_Constants
  */
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull NSString *)contentSizeCategory;
+- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull UIContentSizeCategory)contentSizeCategory;
 
 /**
  Records snapshot of given view or compares reference image to given view.
@@ -40,6 +40,6 @@
  @see https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/#//apple_ref/doc/constant_group/Content_Size_Category_Constants
  @see https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication_Class/#//apple_ref/doc/constant_group/Accessibility_Content_Size_Category_Constants
  */
-- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull NSString *)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask;
+- (void)testView:(nonnull UIView *)view contentSizeCategory:(nonnull UIContentSizeCategory)contentSizeCategory windowsBoundsSizesMask:(AGWindowBoundsSizesMask)mask;
 
 @end

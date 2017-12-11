@@ -18,15 +18,15 @@ class SnapshotHelperExampleTests: FBSnapshotTestCase {
     }
 
     func testExampleViewControllerWithSmallContentSizeCategory(){
-        test(initialView(), contentSizeCategory: UIContentSizeCategory.small.rawValue)
+        test(initialView(), contentSizeCategory: .small)
     }
 
     func testExampleViewControllerWithExtraLargeContentSizeCategory(){
-        test(initialView(), contentSizeCategory: UIContentSizeCategory.extraLarge.rawValue)
+        test(initialView(), contentSizeCategory: .extraLarge)
     }
 
     func testExampleViewControllerWithAccessibilityExtraExtraExtraLargeContentSizeCategory(){
-        test(initialView(), contentSizeCategory: UIContentSizeCategory.accessibilityExtraExtraExtraLarge.rawValue)
+        test(initialView(), contentSizeCategory: .accessibilityExtraExtraExtraLarge)
     }
 
     // MARK: Helpers
