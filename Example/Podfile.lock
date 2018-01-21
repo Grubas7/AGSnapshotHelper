@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  AGSnapshotHelper: 760d9736f4db590193f421f0ab21087fcfe8170b
+  AGSnapshotHelper: 674cea085af9fbeecc42bbc01f62a0afa928567f
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: f4185fb79ccff9ca8f3ede1b73c26b837875b20f

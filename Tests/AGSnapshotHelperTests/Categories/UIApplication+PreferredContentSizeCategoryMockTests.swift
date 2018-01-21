@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import AGSnapshotHelper
 
 class UIApplication_PreferredContentSizeCategoryMockTests: XCTestCase {
 
