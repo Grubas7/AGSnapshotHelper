@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AB667C9DD82734696AE3293 /* libPods-AGSnapshotHelperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394AE5D97523A05453B9202D /* libPods-AGSnapshotHelperTests.a */; };
+		001744F1D98E90B4451755FF /* Pods_AGSnapshotHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CE19F12645FEA3BD48CB44 /* Pods_AGSnapshotHelperTests.framework */; };
 		4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144A6131D00CC4D009B134D /* AGSampleView.m */; };
+		414FC4382014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FC4372014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift */; };
 		415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */; };
 		41D6DE781FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6DE771FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift */; };
 		660525BA1C09112000B5BF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525B91C09112000B5BF97 /* main.m */; };
@@ -31,9 +32,9 @@
 
 /* Begin PBXFileReference section */
 		10CDCDF718D6988DFDCD3997 /* Pods-AGSnapshotHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperTests/Pods-AGSnapshotHelperTests.release.xcconfig"; sourceTree = "<group>"; };
-		394AE5D97523A05453B9202D /* libPods-AGSnapshotHelperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGSnapshotHelperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4144A6121D00CC4D009B134D /* AGSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSampleView.h; sourceTree = "<group>"; };
 		4144A6131D00CC4D009B134D /* AGSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSampleView.m; sourceTree = "<group>"; };
+		414FC4372014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+PostContentSizeCategoryChangeTests.swift"; sourceTree = "<group>"; };
 		41D6DE771FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+PreferredContentSizeCategoryMockTests.swift"; sourceTree = "<group>"; };
 		41D6DE791FD8989500EAED6E /* AGSnapshotHelperTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGSnapshotHelperTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+AGSnapshotHelperTests.m"; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		730869F81BF8E1E20033F34A /* AGSnapshotHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGSnapshotHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730869FF1BF8E1E20033F34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D252BA2622CB50EC0BCE3C1 /* Pods-AGSnapshotHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperTests/Pods-AGSnapshotHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5CE19F12645FEA3BD48CB44 /* Pods_AGSnapshotHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSnapshotHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB667C9DD82734696AE3293 /* libPods-AGSnapshotHelperTests.a in Frameworks */,
+				001744F1D98E90B4451755FF /* Pods_AGSnapshotHelperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +85,7 @@
 		4F61E30CF0A630D2526319F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				394AE5D97523A05453B9202D /* libPods-AGSnapshotHelperTests.a */,
+				C5CE19F12645FEA3BD48CB44 /* Pods_AGSnapshotHelperTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				41D6DE771FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift */,
+				414FC4372014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -293,9 +296,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AGSnapshotHelperTests/Pods-AGSnapshotHelperTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AGSnapshotHelper/AGSnapshotHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AGSnapshotHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -319,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414FC4382014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift in Sources */,
 				41D6DE781FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */,
 				415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */,
 				4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */,

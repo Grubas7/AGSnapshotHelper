@@ -8,8 +8,7 @@
 
 #import "FBSnapshotTestCase+AGSnapshotHelper.h"
 #import "UIApplication+PreferredContentSizeCategoryMock.h"
-#import "NSNotificationCenter+AGContentSizeCategory.h"
-
+#import <AGSnapshotHelper/AGSnapshotHelper-Swift.h>
 #import <FBSnapshotTestCase/FBSnapshotTestController.h>
 
 @implementation FBSnapshotTestCase (AGSnapshotHelper)
@@ -51,7 +50,7 @@
 
     if (contentSizeCategory != nil) {
         [UIApplication.sharedApplication startMockingPreferredContentSizeCategory:contentSizeCategory];
-        [[NSNotificationCenter defaultCenter] postNotificationChangeWithContentSizeCategory:contentSizeCategory];
+        [NSNotificationCenter.defaultCenter postContentSizeCategoryChangeNotification:contentSizeCategory];
     }
 
     NSMutableString *identifierString = [NSMutableString string];
