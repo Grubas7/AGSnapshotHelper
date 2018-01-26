@@ -10,7 +10,7 @@ global:
 podfile: Tests/Podfile
 
 before_script:
-- gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+- gem install cocoapods -v 1.4.0 --no-rdoc --no-ri --no-document --quiet
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
