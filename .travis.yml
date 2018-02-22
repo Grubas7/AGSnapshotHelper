@@ -12,9 +12,10 @@ podfile: Tests/Podfile
 before_install:
 - gem install cocoapods -v 1.4.0 --no-rdoc --no-ri --no-document --quiet
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+- gem install xcpretty-travis-formatter
 
 script:
-- xcodebuild clean build test -workspace Tests/AGSnapshotHelper.xcworkspace -scheme AGSnapshotHelperTests -sdk iphonesimulator -destination "platform=iOS Simulator,OS=9.3,name=iPhone 6s" GCC_GENERATE_DEBUGGING_SYMBOLS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES | xcpretty -c
+- xcodebuild clean build test -workspace Tests/AGSnapshotHelper.xcworkspace -scheme AGSnapshotHelperTests -sdk iphonesimulator -destination "platform=iOS Simulator,OS=9.3,name=iPhone 6s" GCC_GENERATE_DEBUGGING_SYMBOLS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES | xcpretty -f `xcpretty-travis-formatter` && exit ${PIPESTATUS[0]}
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
