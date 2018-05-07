@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		001744F1D98E90B4451755FF /* Pods_AGSnapshotHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CE19F12645FEA3BD48CB44 /* Pods_AGSnapshotHelperTests.framework */; };
+		4123DEC3205453C100C04589 /* AGViewMockParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4123DEC1205453C000C04589 /* AGViewMockParameters.m */; };
 		4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144A6131D00CC4D009B134D /* AGSampleView.m */; };
 		414FC4382014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414FC4372014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift */; };
 		415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */; };
+		41D5CE3C204F29AD00CDFD67 /* MockingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5CE3B204F29AD00CDFD67 /* MockingViewTests.swift */; };
+		41D5CE3E204F319100CDFD67 /* NSDirectionalEdgeInsets+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D5CE3D204F319100CDFD67 /* NSDirectionalEdgeInsets+Equatable.swift */; };
 		41D6DE781FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D6DE771FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift */; };
+		41E5497220545FC800D85E05 /* AGDeviceViewMockParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E5497120545FC800D85E05 /* AGDeviceViewMockParameters.m */; };
+		41E549742054668C00D85E05 /* MockingDeviceViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E549732054668C00D85E05 /* MockingDeviceViewTests.swift */; };
 		660525BA1C09112000B5BF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525B91C09112000B5BF97 /* main.m */; };
 		660525BD1C09112000B5BF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BC1C09112000B5BF97 /* AppDelegate.m */; };
 		660525C01C09112000B5BF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660525BF1C09112000B5BF97 /* ViewController.m */; };
@@ -32,12 +37,19 @@
 
 /* Begin PBXFileReference section */
 		10CDCDF718D6988DFDCD3997 /* Pods-AGSnapshotHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGSnapshotHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGSnapshotHelperTests/Pods-AGSnapshotHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		4123DEC1205453C000C04589 /* AGViewMockParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewMockParameters.m; sourceTree = "<group>"; };
+		4123DEC2205453C100C04589 /* AGViewMockParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGViewMockParameters.h; sourceTree = "<group>"; };
 		4144A6121D00CC4D009B134D /* AGSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSampleView.h; sourceTree = "<group>"; };
 		4144A6131D00CC4D009B134D /* AGSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSampleView.m; sourceTree = "<group>"; };
 		414FC4372014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+PostContentSizeCategoryChangeTests.swift"; sourceTree = "<group>"; };
+		41D5CE3B204F29AD00CDFD67 /* MockingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingViewTests.swift; sourceTree = "<group>"; };
+		41D5CE3D204F319100CDFD67 /* NSDirectionalEdgeInsets+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDirectionalEdgeInsets+Equatable.swift"; sourceTree = "<group>"; };
 		41D6DE771FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+PreferredContentSizeCategoryMockTests.swift"; sourceTree = "<group>"; };
 		41D6DE791FD8989500EAED6E /* AGSnapshotHelperTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGSnapshotHelperTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase+AGSnapshotHelperTests.m"; sourceTree = "<group>"; };
+		41E5497020545FC800D85E05 /* AGDeviceViewMockParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGDeviceViewMockParameters.h; sourceTree = "<group>"; };
+		41E5497120545FC800D85E05 /* AGDeviceViewMockParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGDeviceViewMockParameters.m; sourceTree = "<group>"; };
+		41E549732054668C00D85E05 /* MockingDeviceViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingDeviceViewTests.swift; sourceTree = "<group>"; };
 		660525B51C09112000B5BF97 /* AGSnapshotHelperTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGSnapshotHelperTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660525B81C09112000B5BF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		660525B91C09112000B5BF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,6 +92,19 @@
 				10CDCDF718D6988DFDCD3997 /* Pods-AGSnapshotHelperTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		41D5CE38204F298200CDFD67 /* Mocking */ = {
+			isa = PBXGroup;
+			children = (
+				41D5CE3B204F29AD00CDFD67 /* MockingViewTests.swift */,
+				41E549732054668C00D85E05 /* MockingDeviceViewTests.swift */,
+				41E5497020545FC800D85E05 /* AGDeviceViewMockParameters.h */,
+				41E5497120545FC800D85E05 /* AGDeviceViewMockParameters.m */,
+				4123DEC2205453C100C04589 /* AGViewMockParameters.h */,
+				4123DEC1205453C000C04589 /* AGViewMockParameters.m */,
+			);
+			path = Mocking;
 			sourceTree = "<group>";
 		};
 		4F61E30CF0A630D2526319F1 /* Frameworks */ = {
@@ -147,10 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				66C7D4CC1C0226F4001C6546 /* Categories */,
+				41D5CE38204F298200CDFD67 /* Mocking */,
 				41DDC1771C4985250098190D /* FBSnapshotTestCase+AGSnapshotHelperTests.m */,
 				4144A6121D00CC4D009B134D /* AGSampleView.h */,
 				4144A6131D00CC4D009B134D /* AGSampleView.m */,
 				41D6DE791FD8989500EAED6E /* AGSnapshotHelperTests-Bridging-Header.h */,
+				41D5CE3D204F319100CDFD67 /* NSDirectionalEdgeInsets+Equatable.swift */,
 				730869FF1BF8E1E20033F34A /* Info.plist */,
 			);
 			path = AGSnapshotHelperTests;
@@ -327,8 +354,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E549742054668C00D85E05 /* MockingDeviceViewTests.swift in Sources */,
 				414FC4382014E749006BE631 /* NotificationCenter+PostContentSizeCategoryChangeTests.swift in Sources */,
+				41D5CE3E204F319100CDFD67 /* NSDirectionalEdgeInsets+Equatable.swift in Sources */,
+				41D5CE3C204F29AD00CDFD67 /* MockingViewTests.swift in Sources */,
 				41D6DE781FD8987000EAED6E /* UIApplication+PreferredContentSizeCategoryMockTests.swift in Sources */,
+				4123DEC3205453C100C04589 /* AGViewMockParameters.m in Sources */,
+				41E5497220545FC800D85E05 /* AGDeviceViewMockParameters.m in Sources */,
 				415093CA1C498BD900F17144 /* FBSnapshotTestCase+AGSnapshotHelperTests.m in Sources */,
 				4144A6141D00CC4D009B134D /* AGSampleView.m in Sources */,
 			);
