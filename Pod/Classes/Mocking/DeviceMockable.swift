@@ -3,6 +3,7 @@
 //  AGSnapshotHelper
 //
 //  Created by Adam Grzegorowski on 06/03/2018.
+//  Copyright © 2018 Allegro Group. All rights reserved.
 //
 
 import Foundation

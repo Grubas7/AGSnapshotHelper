@@ -24,7 +24,7 @@ public class MockingDeviceView: UIView {
     /// Object storing properties to stub.
     public var mockParameters: DeviceViewMockable? {
         didSet {
-            guard let mockParameters = mockParameters  else {
+            guard let mockParameters = mockParameters else {
                 return
             }
             
@@ -61,28 +61,15 @@ public class MockingDeviceView: UIView {
     }
     
     override public var traitCollection: UITraitCollection {
-        var mockedTraitCollection: [UITraitCollection] = [super.traitCollection]
-        
-        if let mockedVerticalSizeClass = mockParameters?.verticalSizeClass {
-            mockedTraitCollection.append(UITraitCollection(verticalSizeClass: mockedVerticalSizeClass))
+        guard let mockParameters = mockParameters else {
+            return super.traitCollection
         }
-        if let mockedHorizontalSizeClass = mockParameters?.horizontalSizeClass {
-            mockedTraitCollection.append(UITraitCollection(horizontalSizeClass: mockedHorizontalSizeClass))
-        }
-        if #available(iOS 10.0, *) {
-            if let mockedPreferredContentSizeCategory = mockParameters?.preferredContentSizeCategory {
-                mockedTraitCollection.append(UITraitCollection(preferredContentSizeCategory: mockedPreferredContentSizeCategory))
-            }
-            
-            if let mockedLayoutDirection = mockParameters?.layoutDirection {
-                mockedTraitCollection.append(UITraitCollection(layoutDirection: mockedLayoutDirection))
-            }
-        }
-        if let userInterfaceIdiom = mockParameters?.userInterfaceIdiom {
-            mockedTraitCollection.append(UITraitCollection(userInterfaceIdiom: userInterfaceIdiom))
-        }
-        
-        return UITraitCollection(traitsFrom: mockedTraitCollection)
+
+        return UITraitCollection(traitsFrom: [
+            super.traitCollection,
+            .init(mockParameters: mockParameters),
+            .init(userInterfaceIdiom: mockParameters.userInterfaceIdiom)
+        ])
     }
     
     // MARK: - Private methods
