@@ -11,7 +11,7 @@ import UIKit
 
 public typealias DeviceViewMockable = ViewMockable & DeviceMockable
 
-/// View stubing layout defining properties and information about device.
+/// View stubbing layout defining properties and information about device.
 /// Some of layout properties (e.g. `safeAreaInsets`, or `traitCollection`) are read-only,
 /// so this view can be used as container which helps to force custom layout.
 /// Additionally `mockParameters` contains information about mocked device,

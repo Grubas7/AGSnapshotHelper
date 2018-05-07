@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-/// View stubing layout defining properties.
+/// View stubbing layout defining properties.
 /// Some of layout properties (e.g. `safeAreaInsets`, or `traitCollection`) are read-only,
 /// so this view can be used as container which helps to force custom layout.
 @objc(AGMockingView)
